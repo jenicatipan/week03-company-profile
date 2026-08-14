@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="heuriskFav" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="12" fill="url(#heuriskFav)"/>
+  <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="11.25" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1.5"/>
+  <path d="M0 16 A16 16 0 0 1 16 0 H48 V30 Q30 36 0 16 Z" fill="#FFFFFF" fill-opacity="0.10"/>
+  <rect x="13" y="14.5" width="4.6" height="19" rx="2.3" fill="#FFFFFF"/>
+  <rect x="30.4" y="14.5" width="4.6" height="19" rx="2.3" fill="#FFFFFF"/>
+  <rect x="15.3" y="21.7" width="17.4" height="4.6" rx="2.3" fill="#FFFFFF"/>
+  <circle cx="32.7" cy="11" r="3.5" fill="#FFFFFF"/>
+  <circle cx="32.7" cy="11" r="5.4" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.6"/>
+</svg>

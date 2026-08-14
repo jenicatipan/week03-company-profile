@@ -1,0 +1,155 @@
+html { scroll-behavior: smooth; }
+
+body {
+    background-color: #060B16;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.035;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.bg-canvas {
+    background:
+        radial-gradient(ellipse 900px 480px at 88% -8%, rgba(56,217,232,0.10), transparent 62%),
+        radial-gradient(ellipse 650px 480px at -8% 45%, rgba(76,126,255,0.09), transparent 62%),
+        #060B16;
+}
+
+.eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    color: #7FE3EE;
+}
+
+.eyebrow::before {
+    content: '';
+    width: 26px;
+    height: 1px;
+    background: linear-gradient(90deg, #38D9E8, transparent);
+}
+
+.grad-text {
+    background: linear-gradient(100deg, #5FE3EE 0%, #5B8CFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.glass {
+    background: linear-gradient(165deg, rgba(255,255,255,0.035), rgba(255,255,255,0.012));
+    border: 1px solid rgba(143, 161, 189, 0.14);
+    box-shadow: 0 1px 0 0 rgba(255,255,255,0.03) inset, 0 20px 40px -28px rgba(0,0,0,0.6);
+}
+
+.glass-hover {
+    transition: transform 0.3s cubic-bezier(.22,1,.36,1), border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-hover:hover {
+    transform: translateY(-3px);
+    border-color: rgba(56, 217, 232, 0.4);
+    box-shadow: 0 1px 0 0 rgba(255,255,255,0.04) inset, 0 24px 48px -24px rgba(56, 217, 232, 0.18);
+}
+
+.pill-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(143, 161, 189, 0.3);
+    padding: 0.8rem 1.6rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #EAF3F6;
+    transition: border-color 0.25s ease, background 0.25s ease, transform 0.2s ease;
+}
+
+.pill-btn:hover {
+    border-color: rgba(56, 217, 232, 0.6);
+    background: rgba(56, 217, 232, 0.06);
+    transform: translateY(-1px);
+}
+
+.pill-btn.filled {
+    background: linear-gradient(100deg, #38D9E8, #4C7EFF);
+    color: #06121C;
+    border-color: transparent;
+}
+
+.pill-btn.filled:hover {
+    box-shadow: 0 8px 28px -8px rgba(56, 217, 232, 0.5);
+    background: linear-gradient(100deg, #4EE3F0, #5E8AFF);
+}
+
+.arrow-chip {
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(143, 161, 189, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: border-color 0.25s ease, color 0.25s ease;
+}
+
+.icon-orb {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.85rem;
+    background: linear-gradient(150deg, rgba(56,217,232,0.14), rgba(76,126,255,0.06));
+    border: 1px solid rgba(56,217,232,0.28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glow-blob {
+    position: absolute;
+    border-radius: 9999px;
+    filter: blur(100px);
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.hairline {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(143,161,189,0.25), transparent);
+}
+
+.divide-hairline > * + * {
+    border-left: 1px solid rgba(143,161,189,0.12);
+}
+
+.stat-num {
+    font-variant-numeric: tabular-nums;
+}
+
+.badge-dot {
+    box-shadow: 0 0 0 3px rgba(56,217,232,0.12);
+}
+
+.kicker-line {
+    width: 2.5rem;
+    height: 2px;
+    background: linear-gradient(90deg, #38D9E8, #4C7EFF);
+    border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .glass-hover, .pill-btn { transition: none; }
+}
