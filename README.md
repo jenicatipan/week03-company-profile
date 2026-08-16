@@ -8,7 +8,7 @@ A company profile website is an overview of the business. It is used to introduc
 
 ### Why businesses need one?
 
-Bussinesses need a company website profile as it serves as curated introduction of the business. It establishes brand awareness by communicating a company's name, mission, and offerings to a wider audience, which strengthens the recognition within the industry. It also builds credibility and trust, positioning the business as legitimate and professionally established rather than informal or unproven. It also works as a marketing tool to attract potential clients, partners, and investors. it is an important business asset that support brand recognition, credibility, and partnership. 
+Bussinesses need a company website profile as it serves as curated introduction of the business. It establishes brand awareness by communicating a company's name, mission, and offerings to a wider audience, which strengthens the recognition within the industry. It also builds credibility and trust, positioning the business as legitimate and professionally established rather than informal or unproven. It also works as a marketing tool to attract potential clients, partners, and investors. It is an important business asset that support brand recognition, credibility, and partnership. 
 
 ### Purpose of the Project
 
@@ -31,7 +31,7 @@ The purpose of this project is to build a multi-page company profile website Lar
 
 ### What is MVC? 
 
-MVC or Model-View-Controller is an architectural pattern that separates 3 core components of the system, the Model, View, and Controller. Each component is design to handle specific development of the system.  The **Controller** acts as the intermediary between the View and the Model, it receives user input and coordinate responses. On the other hand, **View** handles the UI and displays the information of users. with. While the **Model** manages the application's data and business logic, performing CRUD operations and enforcing rules, then supplying the requested data back to the Controller.
+MVC or Model-View-Controller is an architectural pattern that separates 3 core components of the system, the Model, View, and Controller. Each component is design to handle specific development of the system.  The **Controller** acts as the intermediary between the View and the Model, it receives user input and coordinate responses. On the other hand, **View** handles the UI and displays the information of users. While the **Model** manages the application's data and business logic, performing CRUD operations and enforcing rules, then supplying the requested data back to the Controller.
 
 ### Why Laravel uses MVC? 
 
@@ -83,19 +83,17 @@ Controller methods are functions inside a controller that perform specific tasks
 
 ## 7. Blade Templating Engine 
 
-Explain 
-
 ### Blade Layouts 
 
 A Blade layout is a reusable template that defines the common structure of multiple pages. It can contain elements such as the navigation bar, footer, CSS, JavaScript, and the main page structure.
 
 Instead of creating the same HTML structure for every page, individual pages can reuse the same layout.
 
-<!-- resources/views/layouts/app.blade.php -->
+resources/views/layouts/app.blade.php
 
 <html>
 <head>
-    <title>Heurisk SOlutions</title>
+    <title>Heurisk Solutions</title>
 </head>
 <body>
 

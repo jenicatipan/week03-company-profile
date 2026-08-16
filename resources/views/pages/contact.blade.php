@@ -110,7 +110,17 @@
 
                     {{-- Google Map Embed --}}
                     <div class="relative overflow-hidden rounded-2xl border border-white/10 h-56 shadow-card hover:shadow-glow transition-shadow duration-300 group lg:flex-grow lg:min-h-64">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3862.526127652893!2d120.97329!3d14.5674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca873f3f3f3f%3A0x3f3f3f3f3f3f3f3f!2sAseana%20Business%20Park%2C%20Macapagal%20Blvd%2C%20Pasay%2C%201302%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1234567890" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Heurisk Solutions location on Google Maps" class="group-hover:scale-105 transition-transform duration-500"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps?q=14.5376686,121.0008137&output=embed"
+                            width="100%"
+                            height="100%"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Heurisk Solutions location on Google Maps"
+                            class="group-hover:scale-105 transition-transform duration-500">
+                        </iframe>
                     </div>
                 </div>
 
