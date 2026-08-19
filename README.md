@@ -4,7 +4,7 @@
 
 ### What is a Company Profile Website?
 
-A company profile website is an overview of the business. It is used to introduce the business to potential clients  
+A company profile website is an overview of the business. It is used to introduce the business to potential clients.
 
 ### Why businesses need one?
 
@@ -91,11 +91,11 @@ Instead of creating the same HTML structure for every page, individual pages can
 
 resources/views/layouts/app.blade.php
 
-<html>
-<head>
+    <html>
+    <head>
     <title>Heurisk Solutions</title>
-</head>
-<body>
+    </head>
+    <body>
 
     <nav>
         Navigation Bar
@@ -107,8 +107,8 @@ resources/views/layouts/app.blade.php
         Footer
     </footer>
 
-</body>
-</html>
+    </body>
+    </html>
 
 ### Blade Components 
 
@@ -122,9 +122,9 @@ resources/views/components/button.blade.php
 
 The component can then be used with:
 
-<x-button>
-    Submit
-</x-button>
+    <x-button>
+        Submit
+    </x-button>
 
 Blade component tags use the x- prefix followed by the component name.
 
@@ -189,37 +189,14 @@ Contains the application's settings and configuration files.
 
 ![Homepage](screenshots/home-page.png)
 
-![Homepage](screenshots/home-page2.png)
-
-![Homepage](screenshots/home-page3.png)
-
 ### About Page
 
 ![About Page](screenshots/about-page.png)
-
-![About Page](screenshots/about-page1.png)
-
-![About Page](screenshots/about-page2.png)
-
-![About Page](screenshots/about-page3.png)
-
-![About Page](screenshots/about-page4.png)
-
-![About Page](screenshots/about-page5.png)
-
-![About Page](screenshots/about-page6.png)
-
-![About Page](screenshots/about-page7.png)
 
 ### Services Page
 
 ![Services Page](screenshots/services-page.png)
 
-![Services Page](screenshots/services-page1.png)
-
-![Services Page](screenshots/services-page2.png)
-
-![Services Page](screenshots/services-page3.png)
 
 ### Contact Page
 
